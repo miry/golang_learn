@@ -8,3 +8,21 @@ func Reverse(s string) string {
 	}
 	return string(b)
 }
+
+func IsPangram(s string) string {
+	b := []byte(s)
+
+	var chars map[byte]bool
+	chars = make(map[byte]bool)
+
+	for i := 0; i < len(b); i++ {
+		chars[b[i]] = true
+	}
+
+	if len(chars) == 27 {
+		return "pangram"
+	} else {
+		return "not pangram"
+	}
+
+}
