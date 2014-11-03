@@ -1,5 +1,7 @@
 package string
 
+import "strings"
+
 func Reverse(s string) string {
 	b := []rune(s)
 	for i := 0; i < len(b)/2; i++ {
@@ -10,7 +12,7 @@ func Reverse(s string) string {
 }
 
 func IsPangram(s string) string {
-	b := []byte(s)
+	b := []byte(strings.ToLower(s))
 
 	var chars map[byte]bool
 	chars = make(map[byte]bool)

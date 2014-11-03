@@ -27,6 +27,7 @@ func TestIsPangram(t *testing.T) {
 	}{
 		{"We promptly judged antique ivory buckles for the next prize", "pangram"},
 		{"We promptly judged antique ivory buckles for the prize", "not pangram"},
+		{"We promptly judged antique Ivory buckles for the next prize", "pangram"},
 	}
 
 	for _, c := range tests {
