@@ -1,0 +1,7 @@
+github.com/gin-gonic/gin 3b079bb6f79ae501e73a5401c41b589f6616b61e
+github.com/astaxie/beego
+github.com/go-sql-driver/mysql
+github.com/revel/cmd/revel
+github.com/revel/revel
+code.google.com/p/gorest
+github.com/coopernurse/gorp

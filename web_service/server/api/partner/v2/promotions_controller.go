@@ -1,0 +1,4 @@
+package "promotions"
+
+
+func Index
