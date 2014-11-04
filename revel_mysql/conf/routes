@@ -6,6 +6,11 @@ module:testrunner
 
 GET     /                                       App.Index
 
+# Accounts
+GET     /accounts                               Accounts.Index
+# POST    /accounts                               Accounts.Create
+GET     /accounts/:id                           Accounts.Show
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
